@@ -6,7 +6,7 @@ provider "aws" {
 # configure backend
 terraform {
   backend "s3" {
-    bucket         = "Bob"
+    bucket         = "terraform-datro"
     key            = "eks.terraform.tfstate"
     region         = "us-west-1"
     
